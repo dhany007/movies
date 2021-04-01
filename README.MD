@@ -2,12 +2,17 @@
 
 - This API is used to access https://www.omdbapi.com/. You can read the documentation for using parameters there.
 - You can get your own apikey by registering using this email in this link https://www.omdbapi.com/apikey.aspx. or you can use my apikey: 
-    - "aaa"
-    - "bbb"
+    - "d69ab5e0"
+    - "faf7e5bb"
 
 # Instalation
 
+## Configure Database
+
+Create database `movie` in your local and import file `movie.sql`
+
 ## Clone
+
 ```bash
 $ git clone https://github.com/dhany007/movies.git
 $ cd movies
@@ -15,6 +20,7 @@ $ npm install
 ```
 
 ## Create Environment Variable
+
 ```bash
 $ cp .env.example .env
 $ nano .env
@@ -27,13 +33,16 @@ DB_USER = "YOUR USER"
 DB_PASS = "YOUR PASSWORD"
 
 ```
+
 ### Start  Server
+
 ```bash
 $ npm run dev (Development)
 $ npm run app (Production)
 ```
 
 ### Example
+
   `http://localhost:3000/search?apikey=d69ab5e0&s=Batman`
 
 
