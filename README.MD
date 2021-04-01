@@ -51,7 +51,8 @@ $ npm start (Production)
 
 ## Deploy in Public url
 
-You can access this API in public IP with `https://www.heroku.com/` and follow api specs below
+- You can access this API in public IP with (https://lychee-crisp-13562.herokuapp.com/) and follow api specs below
+- example request: (https://lychee-crisp-13562.herokuapp.com/detail?apikey=d69ab5e0&i=tt0372784)
 
 ## Authentication
 
