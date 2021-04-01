@@ -1,7 +1,7 @@
 # Prerequisite
 
 - This API is used to access https://www.omdbapi.com/. You can read the documentation for using parameters there.
-- You can get your own apikey by registering using this email in this link https://www.omdbapi.com/apikey.aspx. or you can use my apikey: 
+- You can get your own apikey by registering using your email in this link https://www.omdbapi.com/apikey.aspx. or you can use my apikey: 
     - "d69ab5e0"
     - "faf7e5bb"
 
@@ -38,7 +38,7 @@ DB_PASS = "YOUR PASSWORD"
 
 ```bash
 $ npm run dev (Development)
-$ npm run app (Production)
+$ npm start (Production)
 ```
 
 ### Example
