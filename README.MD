@@ -39,6 +39,7 @@ DB_PASS = "YOUR PASSWORD"
 ```bash
 $ npm run dev (Development)
 $ npm start (Production)
+$ npm test (For Test)
 ```
 
 ### Example
